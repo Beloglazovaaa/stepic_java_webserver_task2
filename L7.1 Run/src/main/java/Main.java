@@ -26,7 +26,7 @@ public class Main {
 
     @SuppressWarnings("UnusedDeclaration")
     private static class SerialSequenceExample extends Thread {
-        private static int currentMax = 1;
+        private static int currentMax = 0;
         private int mainId;
         private final static Object waitObject = new Object();
 
